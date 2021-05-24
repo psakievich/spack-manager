@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. /projects/wind/spack-manager/spack/share/spack/setup-env.sh
+. ${SPACK_MANAGER}/spack/share/spack/setup-env.sh
 
 env_name=$1
 
