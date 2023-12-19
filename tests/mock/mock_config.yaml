@@ -1,0 +1,4 @@
+spack-manager:
+  projects:
+  - tests/mock/project_a
+
