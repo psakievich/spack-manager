@@ -32,7 +32,7 @@ decreases as the user becomes further removed from the build process.  The three
 - Analysts (zero exposure to Spack)
 
 .. image:: images/profile_pyramids.png
-   :width 400
+   :width: 400
    :alt: Spack-Manager aims to provide an inverse relationship between population size and required spack knowledge.
 
 Separate documentation exists for each of these user profiles.
