@@ -2,9 +2,12 @@
 
 Spack-Manager is a Spack extension that provides a way for software applications
 to configure their usage of spack.  
+
 The code of Spack-Manager is independent of each individual application and each
 application code needs to configure a Spack-Manager `Project` to tell Spack-Manager how to work
 with their application.
+
+![Relationship between spack-manager and a software project](../images/project_spack_manager_relationship.png) 
 
 A `Project` at its core is simply a collection of [spack configuration files](https://spack.readthedocs.io/en/latest/configuration.html),
 and [spack package repositories](https://spack.readthedocs.io/en/latest/repositories.html).
@@ -22,7 +25,6 @@ are registered.
 spack-manager:
   projects:
     - /path/to/project_a
-      default_view: False
     - $HOME/project_b
 ```
 
