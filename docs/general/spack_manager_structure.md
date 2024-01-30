@@ -8,6 +8,9 @@ application code needs to configure a Spack-Manager `Project` to tell Spack-Mana
 with their application.
 
 ![Relationship between spack-manager and a software project](../images/project_spack_manager_relationship.png) 
+<!--
+<img src="../images/project_spack_manager_relationship.png" alt="spack-manager project relationships" width=400>
+-->
 
 A `Project` at its core is simply a collection of [spack configuration files](https://spack.readthedocs.io/en/latest/configuration.html),
 and [spack package repositories](https://spack.readthedocs.io/en/latest/repositories.html).
